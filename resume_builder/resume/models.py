@@ -52,7 +52,7 @@ class ProjectOrJob(models.Model):
 
 class ProfessionalSkills(models.Model):
     person = models.ForeignKey(Person, on_delete=models.CASCADE)
-    skillDetail = models.TextField()
+    skill_detail = models.TextField()
 
 
 class Academics(models.Model):
